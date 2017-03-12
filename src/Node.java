@@ -2,7 +2,6 @@
  * Created by Ben on 3/8/2017.
  */
 
-//Holds
 public class Node {
 
     private int [][] board;
@@ -44,7 +43,6 @@ public class Node {
         }
     }
 
-    //TODO: Check if child is already in the visited before adding to frontier
     public Node[] getChildren() {
         //Finding the 0
         int i = 0;
